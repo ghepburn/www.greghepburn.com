@@ -58,46 +58,34 @@ export class IntroductionBanner extends Component {
 
 		return (
 			<div>
-				<div className="card BannerCard">
-					<div className="PrimaryCard">
-						<div className="container">
 
-							<div className="justify-content-center">
-								<p className="BannerMessageBig">
-									<strong>Hi There! </strong>
-								</p>
-								<br></br> 
-								<p className="BannerMessageSmall text-center"><strong>Welcome to my site!</strong> My name is <strong>Greg Hepburn</strong> and I am a <strong>self-taught Python Developer</strong>.</p>
-								<p className="BannerMessageSmall text-center pt-5">My lack of formal education in programming shows only one thing... that I have the <strong>passion</strong>, <strong>motivation</strong>, and <strong>independence</strong> to achomplish my goals.</p>
-							</div>
-
-							<br></br>
-							<br></br>
-
-							<div className="row CenteredRow border-top">
-
-								<div className="col-4">
-									<button className="AboutSectionButton CardImage btn btn-outline-secondary" onClick={this.toggleStoryClick} >
-										<p className="BannerMessageSmall"><strong>My Story</strong></p>
-										<p>{this.state.showStory}</p>
-									</button>
+				<section id="section-b" className="grid">
+					<div className="content-wrap">
+						<ul>
+							<li>
+								<div className="btn card" onClick={this.toggleStoryClick}>
+									<div className="card-content">
+										<h4 class="card-title">My Story</h4>
+									</div>
 								</div>
-								<div className="col-4">
-									<button className="AboutSectionButton btn btn-outline-secondary" onClick={this.toggleTimelineClick} >
-										<p className="BannerMessageSmall"><strong>Learning Path</strong></p>
-									</button>
+							</li>
+							<li>
+								<div className="btn card" onClick={this.toggleTimelineClick}>
+									<div className="card-content">
+										<h4 class="card-title">My Timeline</h4>
+									</div>
 								</div>
-								<div className="col-4">
-									<button className="AboutSectionButton btn btn-outline-secondary" onClick={this.toggleEducationClick} >
-										<p className="BannerMessageSmall"><strong>My Education</strong></p>
-									</button>
+							</li>
+							<li>
+								<div className="btn card" onClick={this.toggleEducationClick}>
+									<div className="card-content">
+										<h4 class="card-title">My Education</h4>
+									</div>
 								</div>
-							
-							</div>
-
-						</div>
+							</li>
+						</ul>
 					</div>
-				</div>
+				</section>
 
 				<div>
 					{content}

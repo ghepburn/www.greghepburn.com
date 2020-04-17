@@ -6,31 +6,33 @@ export class NavBar extends Component {
 	render() {
 		return (
 
-
-			<nav className="navbar navbar-expand-lg fixed-top bg-dark">
-				<div className="container">
+			<nav>
+				<div className="logo">
 					<Link to="/">
-						<h3 className="mr-auto navbar-brand whiteText">Greg Hepburn</h3>
+						<a>Greg Hepburn</a>
 					</Link>
-					<div className="collapse navbar-collapse" id="navbarResponsive">
-						<ul className="nav text-uppercase ml-auto">
-							<li className="nav-link">
-								<Link to="/">
-									<p className="whiteText">Home</p>
-								</Link>
-							</li>
-							<li className="nav-link">
-								<Link to="/projects">
-									<p className="whiteText">Projects</p>
-								</Link>
-							</li>
-							<li className="nav-link">
-								<Link to="/about">
-									<p className="whiteText">About</p>
-								</Link>
-							</li>
-						</ul>
-					</div>
+				</div>
+				<ul className="nav-links">
+					<li>
+						<Link to="/">
+							<a>Home</a>
+						</Link>
+					</li>
+					<li>
+						<Link to="/projects">
+							<a>Projects</a>
+						</Link>
+					</li>
+					<li>
+						<Link to="/about">
+							<a>About</a>
+						</Link>
+					</li>
+				</ul>
+				<div className="burger">
+					<div className="line1"></div>
+					<div className="line2"></div>
+					<div className="line3"></div>
 				</div>
 			</nav>
 

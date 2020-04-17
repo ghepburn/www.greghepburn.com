@@ -5,11 +5,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Card, CardImg, CardText, CardBody } from 'reactstrap';
 import NavBar from './layout/NavBar';
 import Footer from './layout/Footer';
-import Banner from './layout/Banner';
 import Home from './home/Home';
 import About from './about/About';
 import Projects from './projects/Projects';
-import Project_Detail from './projects/projectContent/ProjectDetail';
+import Project_Detail from './projects/projectBanners/projectContent/ProjectDetail';
 
 class App extends Component {
 	constructor(props) {
@@ -25,19 +24,19 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		axios.get(`http://www.greghepburn.com/api/projects/`)
+		axios.get(`http://127.0.0.1:8000/api/projects/`)
 		.then(res => {
 			this.setState({ projects: res.data.results });
 		});
-		axios.get('http://www.greghepburn.com/api/images/7/')
+		axios.get('http://127.0.0.1:8000/api/images/7/')
 		.then(res => {
 			this.setState({ whiteboard_image: res.data });
 		});
-		axios.get('http://www.greghepburn.com/api/images/8/')
+		axios.get('http://127.0.0.1:8000/api/images/8/')
 		.then(res => {
 			this.setState({ whiteboard_lilman: res.data });
 		});
-		axios.get('http://www.greghepburn.com/api/images/9/')
+		axios.get('http://127.0.0.1:8000/api/images/9/')
 		.then(res => {
 			this.setState({ whiteboard_todo: res.data });
 		});

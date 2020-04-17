@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import { Card, CardImg } from 'reactstrap';
-import AboutBanner from './AboutBanner.js';
-import IntroductionBanner from './IntroductionBanner';
+import AboutTitleBanner from './aboutBanners/AboutTitleBanner.js';
+import IntroductionBanner from './aboutBanners/IntroductionBanner';
 
 export class About extends Component {
 	constructor(props) {
@@ -24,7 +24,7 @@ export class About extends Component {
 	render() {
 		return (
 			<div>
-				<AboutBanner whiteboard_img={this.props.image} selfie={this.props.selfie_image}/>
+				<AboutTitleBanner whiteboard_img={this.props.image} selfie={this.props.selfie_image}/>
 				<IntroductionBanner selfie_image={this.props.selfie_image} myProfile={this.state.myProfile}/>
 			</div>
 		);

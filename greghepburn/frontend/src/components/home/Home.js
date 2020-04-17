@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import HomeBanner from './HomeBanner';
+import TitleBanner from './homeContent/TitleBanner';
+import HomeAbout from './homeContent/HomeAbout';
+import HomeProjects from './homeContent/HomeProjects';
+import HomeContact from './homeContent/HomeContact';
 
 export class Home extends Component {
 	constructor(props){
@@ -8,9 +11,12 @@ export class Home extends Component {
 	}
 	render() {
 		return (
-			<div>
-				<HomeBanner image={this.props.image}/>
-			</div>
+			<body>
+				<TitleBanner image={this.props.image}/>
+				<HomeAbout />
+				<HomeProjects />
+				<HomeContact />
+			</body	>
 		);
 	}
 };

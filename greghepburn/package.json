@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "collect": "npm run build && npm run djangoCollect",
+    "execute": "npm run dev && npm run djangoStart",
     "dev": "webpack --mode development ./frontend/src/index.js --output ./frontend/static/frontend/js/main.js",
     "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/js/main.js",
-    "djangoCollect": "python manage.py collectstatic"
+    "djangoStart": "python manage.py runserver"
   },
   "keywords": [],
   "author": "",

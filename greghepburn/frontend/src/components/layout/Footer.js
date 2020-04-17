@@ -5,23 +5,11 @@ export class Footer extends Component {
 	render() {
 		return (
 			
-			<nav className="navbar navbar-dark bg-dark">
-				
-				<div className="container">
-					<div className="row pt-3 pb-3">
-						<div className="col-4 m-auto">
-							<a className="nav-link text-white" href="/">Home</a>
-						</div>
-						<div className="col-4 m-auto">
-							<a className="nav-link text-white" href="/projects">Projects</a>
-						</div>
-						<div className="col-4 m-auto">
-							<a className="nav-link text-white" href="/about">About</a>
-						</div>
-					</div>
-				</div>
-				
-			</nav>
+			<footer id="main-footer" className="grid">
+				<div>Greg Hepburn -- Python Developer</div>
+				<div><a href="https://github.com/ghepburn" target="_blank">GitHub</a></div>
+				<div><a href="https://ca.linkedin.com/in/greg-hepburn-0289a5179?trk=people-guest_people_search-card" target="_blank">LinkedIn</a></div>
+			</footer>
 
 		);
 	}
