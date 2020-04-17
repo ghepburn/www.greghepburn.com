@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "collect": "npm run build && npm run djangoCollect",
+    "dev": "webpack --mode development ./frontend/src/index.js --output ./frontend/static/frontend/js/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/js/main.js",
+    "djangoCollect": "python manage.py collectstatic"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel": "^6.23.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "reactstrap": "^8.4.1"
+  }
+}
