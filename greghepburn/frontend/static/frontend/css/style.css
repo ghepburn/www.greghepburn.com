@@ -29,6 +29,9 @@ p {
 
 
 nav {
+	position: sticky;
+	z-index: 1;
+	top: 0px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -36,6 +39,21 @@ nav {
 	background-color: #5D4954;
 	font-family: ;
 }
+
+footer {
+	position: relative;
+	z-index: 1;
+	bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #5D4954;
+	padding: 10px;
+	font-family: ;
+}
+
 
 .logo a {
 	color: #fff;
@@ -56,12 +74,13 @@ nav {
 		flex-direction: column;
 		align-items: center;
 		width: 40%;
-		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
 	}
 
 .nav-links li {
 	list-style: none;
-	opacity: 0;
+	opacity: 100;
+	margin-top:35px;
 }
 
 .nav-links a {
@@ -69,11 +88,12 @@ nav {
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .burger {
 	display: block;
+	cursor: pointer;
 }
 
 .burger div {
@@ -83,12 +103,17 @@ nav {
 	margin: 5px;
 }
 
+.nav-deactive {
+	transform: translateX(100%);
+}
+
 
 /*FOOTER*/
 
 
 #main-footer a {
-	color: #5D4954;
+	color: #fff;
+	background: #5D4954;
 	text-decoration: none;
 }
 
@@ -210,20 +235,23 @@ nav {
 
 	.nav-links {
 		position: relative;
+		right: 0px;
 		top: 0vh;
 		height: 8vh;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		width:30%;
-		transform: translateX(-5%);
+		transform: translateX(0%);
 		margin: 5px;
+	}
 
+	.main-nav ul {
+		transform: translateX(0%);
 	}
 
 	.nav-links li {
-		list-style: none;
-		opacity: 100;
+		margin-top: 0;
 	}
 
 	.grid {
@@ -269,188 +297,12 @@ nav {
 	font-family: 'Indie Flower', cursive;
 }
 
-.TitleBannerCard {
-	width: 100%;
-	height: 100vh;
-	padding: 0px;
-	margin: 0px;
-	position: relative;
-}
-.BannerCard {
-	width: 100%;
-	height: 50%;
-	padding: 0px;
-	margin: 0px;
-	position: relative;
-}
-.CardImage {
-	object-fit: full;
-	width: 100%;
-	height: 100%
-}
-.WhiteBoardMessageContainer {
-	position: absolute;
-	top: 30%;
-	width: 100%;
-	font-family: 'Indie Flower', cursive;
-}
-.WhiteBoard1 {
-	text-align: center;
-	font-size: 50px;
-}
-.WhiteBoard2 {
-	font-size: 22px;
-	margin-left: 5%;
-}
-.secondaryMessage {
-	position: relative;
-}
-.VideoButton {
-	position: relative;
-	top: 80%;
-}
 
-.AboutSectionButton {
-	.margin-left: 10%;
-	.margin-right: 10%;
-	text-align: center;
-	position:relative;
-	.background-color: lightgrey;
-	height: 100%;
-	width: 100%;
-}
-
-
-.CardMessage {
-	text-align: center;
-}
-.PrimaryCard {
-	font-family: 'Indie Flower', cursive;
-	position: relative;
-	background-color: none;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.SecondaryCard {
-	position: relative;
-	background-color: #f2f2f2;
-	padding-top: 5%;
-	padding-bottom: 5%;	
-}
-.DetailCard {
-	position: relative;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-left: 5%;
-	padding-right: 5%;	
-}
-.Code {
-	background-color: #D3D3D3;
-}
-.Blue {
-	background-color: #B0E0E6;	
-}
-.BannerMessageBig {
-	font-family: 'Indie Flower', cursive;
-	font-size: 28px;
-}
-.BannerMessageSmall {
-	font-family: 'Indie Flower', cursive;
-	font-size: 22px;	
-}
-
-/*PROJECT SECTION*/
-/*--------------------------------------*/
-.CenteredRow {
-	margin-right: 10%;
-	margin-left: 10%;
-}
-
-.FeaturedProject {
-	position: relative;
-	background-color: #D3D3D3;
-	margin: 10%;
-	padding: 5%;
-	float: inherit;
-}
-.FeaturedProjectTitle {
-	text-align: center;
-}
-/*.ProjectImage {
-	position: relative;
-	object-fit: contain;
-}*/
-
-/*.columnButton {
-	text-align: center;
-	width: 100%;
-	height: 100%
-	padding: 5%;
-	margin: 5%;
-}*/
-.listedProjects {
-	text-align: center;
-	object-fit: full;
-	width: 80%;
-	height: 100%
-	padding: 5%;
-	margin-bottom: : 5%;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-/*---------------------------------------*/
-
-/*.ProjectCard {
-	background-color: none;
-}*/
-
-/*ABOUT SECTION*/
-/*--------------------------------*/
-.AboutImage {
-	position: absolute;
-	margin: auto;
-}
-.AboutIntroCard {
-	margin: 20px;	
-	position: absolute;
-	top: 30%;
-	width: 100%;
-	text-align: center;
-}
-.AboutSectionButton {
-	position: relative;
-	margin: 10%;
-	padding: 10%;
-	width: 80%;
-	height: 70%;
-	float: inherit;
-}
-.MyStoryDiv {
-	display: none !important;
-}
-.MyTimelineDiv {
-	display: none;
-}
-.MyEducationDiv {
-	display: none;
-}
-
-/*-------------------------------------*/
-.card {
-	border: none;
-}
-.btn {
-	width:100%;
-}
-
-
-* {
-  box-sizing: border-box;
-}
 
 /* The actual timeline (the vertical ruler) */
+
+
+
 .timeline {
   position: relative;
   max-width: 1200px;

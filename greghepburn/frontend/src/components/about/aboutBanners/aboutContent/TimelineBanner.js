@@ -5,13 +5,12 @@ import { Card, CardImg } from 'reactstrap';
 export class TimelineBanner extends Component {
 	render() {
 		return (
-			<div className="card BannerCard">
-				<div className="PrimaryCard">
-					<div className="container">
 
-						<p className="BannerMessageBig"><strong>Where I Spent My Time</strong></p>
-						<br></br>
-
+			<section id="section-a" className="grid">
+				<div className="content-wrap">
+					<h2 className="content-title">My Journey</h2>
+					<div className="content-text">
+					
 						<div class="timeline">
 							<div class="timelineContainer left border-right">
 								<div class="content">
@@ -72,7 +71,8 @@ export class TimelineBanner extends Component {
 
 					</div>
 				</div>
-			</div>
+			</section>
+
 		);
 	}
 };
