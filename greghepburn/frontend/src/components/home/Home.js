@@ -12,7 +12,7 @@ export class Home extends Component {
 	render() {
 		return (
 			<body>
-				<TitleBanner image={this.props.image}/>
+				<TitleBanner />
 				<HomeAbout />
 				<HomeProjects />
 				<HomeContact />

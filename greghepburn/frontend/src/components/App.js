@@ -15,32 +15,14 @@ class App extends Component {
 		super(props);
 		this.state = {
 			projects: [],
-			images: [],
-			whiteboard_image: [],
-			selfie_image: [],
-			whiteboard_lilman: [],
-			whiteboard_todo: []
 		}
 	}
 
 	componentDidMount() {
-		axios.get(`http://127.0.0.1:8000/api/projects/`)
+		axios.get(`http://www.greghepburn.com/api/projects/`)
 		.then(res => {
 			this.setState({ projects: res.data.results });
 		});
-		axios.get('http://127.0.0.1:8000/api/images/7/')
-		.then(res => {
-			this.setState({ whiteboard_image: res.data });
-		});
-		axios.get('http://127.0.0.1:8000/api/images/8/')
-		.then(res => {
-			this.setState({ whiteboard_lilman: res.data });
-		});
-		axios.get('http://127.0.0.1:8000/api/images/9/')
-		.then(res => {
-			this.setState({ whiteboard_todo: res.data });
-		});
-
 	}
 
 	render() {
@@ -48,9 +30,9 @@ class App extends Component {
 			<Router>
 				<NavBar />
 				<Switch>
-					<Route path="/" exact component= {() => <Home projects={this.state.projects} image={this.state.whiteboard_image} />} />
-					<Route path="/about" exact component={() => <About image={this.state.whiteboard_lilman} selfie_image={this.state.selfie_image}/>} />
-					<Route path="/projects" exact component={() => <Projects projects={this.state.projects} image={this.state.whiteboard_todo}/>} />
+					<Route path="/" exact component= {() => <Home projects={this.state.projects} />} />
+					<Route path="/about" exact component={() => <About />} />
+					<Route path="/projects" exact component={() => <Projects projects={this.state.projects} />} />
 					<Route path="/projects/:id" component={Project_Detail} />
 				</Switch>
 				<Footer />

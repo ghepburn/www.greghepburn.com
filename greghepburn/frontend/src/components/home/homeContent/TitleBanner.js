@@ -8,7 +8,7 @@ export class TitleBanner extends Component {
 
 		return (
 			<header id="titlebanner" className="grid">
-				<div className="bg-image"></div>
+				<div className="bg-image home-title-image"></div>
 				<div className="content-wrap">
 					<h1>PYTHON DEVELOPER</h1>
 				</div>

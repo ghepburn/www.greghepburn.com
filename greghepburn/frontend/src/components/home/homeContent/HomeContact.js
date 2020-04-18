@@ -9,7 +9,8 @@ export class HomeContact extends Component {
 			<section id="section-c" className="grid">
 				<div className="box">
 					<h2 className="content-title">Contact Me Today</h2>
-					<p>ghepburn@hotmail.ca</p>    
+					<p>ghepburn@hotmail.ca</p>
+					<p>Toronto/GTA, Ontario </p>   
 				</div>
 			</section>
 		);

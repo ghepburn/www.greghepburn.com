@@ -9,15 +9,12 @@ export class Projects extends Component {
 
 	constructor(props) {
 		super(props);
-		this.state={
-			filter: "False"
-		}
 	}
 
 	render() {
 		return (
 			<div>
-				<ProjectTitleBanner image={this.props.image} />
+				<ProjectTitleBanner />
 				<FeaturedProjectsBanner projects={this.props.projects}/>
 				<ProjectFilterBanner projects={this.props.projects}/>
 			</div>

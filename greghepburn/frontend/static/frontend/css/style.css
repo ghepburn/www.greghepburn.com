@@ -30,7 +30,7 @@ p {
 
 nav {
 	position: sticky;
-	z-index: 1;
+	z-index: 4;
 	top: 0px;
 	display: flex;
 	justify-content: space-around;
@@ -144,22 +144,41 @@ footer {
 
 #titlebanner .bg-image {
 	position: absolute;
-	background: url('http://www.greghepburn.com/media/images/extended_whiteboard1.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 450px;
-	opacity: 0.4;
+	opacity: 0.3;
+	z-index: 1;
 }
 
+.home-title-image {
+	background: url('http://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png');
+}
+
+.about-title-image {
+	background: url('http://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png'); 
+}   
+
+.projects-title-image {
+	background: url('http://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png'); 
+}   
+
 #titlebanner h1 {
-	padding-top: 100px;
-	padding-bottom:0;
+	positionL relative;
+	padding-top:190px;
+	font-size: 30px;
+	letter-spacing: 4px;
+	z-index: 2;
+	opacity: 0.4;
+	text-transform: uppercase;
 }
 
 #titlebanner .content-wrap,
 #section-a .content-wrap {
+	position: relative;
+	z-index: 2;
 	padding: 0 1.5em;
 }
 
@@ -169,6 +188,16 @@ footer {
 	background: #eaeaea;
 	color: #333;
 	padding-bottom: 2em;
+	padding-top:2em;
+}
+
+.written-message {
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+.heavy-message {
+	font-size: 24px;
 }
 
 /*section-b*/
@@ -196,6 +225,7 @@ footer {
 
 #section-c .box {
 	padding: 2em;
+	paddint-bottom: 15px;
 	color: #fff;
 }
 
@@ -262,6 +292,13 @@ footer {
 	#section-b ul, 
 	#section-c {
 		grid-column: 2/4;
+	}
+
+
+	#titlebanner h1 {
+		font-size: 50px;
+		padding-top: 190px;
+		letter-spacing: 7px;
 	}
 
 

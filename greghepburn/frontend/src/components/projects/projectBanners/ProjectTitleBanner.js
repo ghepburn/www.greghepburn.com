@@ -7,7 +7,7 @@ export class ProjectTitleBanner extends Component {
 
 		return (
 			<header id="titlebanner" className="grid">
-				<div className="bg-image"></div>
+				<div className="bg-image projects-title-image"></div>
 				<div className="content-wrap">
 					<h1>My Projects</h1>
 				</div>
