@@ -57,7 +57,7 @@ export class HomeProjects extends Component {
 							<div className="card">
 								<img src="http://www.greghepburn.com/media/images/dataanalysis.jpeg"></img>
 								<div className="card-content">
-									<h3 class="card-title">Data Analysis</h3>
+									<h3 class="card-title">Data Science</h3>
 									<p>Do I want to optimize my decisions in life? umm of course! Here lies my deep love for working with data.</p>
 								</div>
 							</div>
