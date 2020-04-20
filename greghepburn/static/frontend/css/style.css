@@ -9,6 +9,7 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	overflow-x: hidden;	
+	appeatance: none;
 }
 img {
  	display: block;
@@ -154,15 +155,15 @@ footer {
 }
 
 .home-title-image {
-	background: url('http://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png');
+	background: url('https://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png');
 }
 
 .about-title-image {
-	background: url('http://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png'); 
+	background: url('https://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png'); 
 }   
 
 .projects-title-image {
-	background: url('http://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png'); 
+	background: url('https://www.greghepburn.com/media/images/1_taf9WHc3BPmhbxyKEu2jIg.png'); 
 }   
 
 #titlebanner h1 {

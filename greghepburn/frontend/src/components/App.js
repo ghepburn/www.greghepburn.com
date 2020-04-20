@@ -19,7 +19,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		axios.get(`http://www.greghepburn.com/api/projects/`)
+		axios.get(`https://www.greghepburn.com/api/projects/`)
 		.then(res => {
 			this.setState({ projects: res.data.results });
 		});

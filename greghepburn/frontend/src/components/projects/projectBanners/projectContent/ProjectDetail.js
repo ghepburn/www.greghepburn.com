@@ -11,7 +11,7 @@ export class Project_Detail extends Component {
 	}
 
 	componentDidMount() {
-		fetch(`http://www.greghepburn.com/api/projects/${this.props.match.params.id}`)
+		fetch(`https://www.greghepburn.com/api/projects/${this.props.match.params.id}`)
 		.then(results => results.json()
 		.then((data) => {
 			this.setState({ project: data });

@@ -11,7 +11,7 @@ export class EducationBanner extends Component {
 	}
 	
 	componentDidMount() {
-		axios.get('http://www.greghepburn.com/api/education/')
+		axios.get('https://www.greghepburn.com/api/education/')
 		.then(res => {
 			this.setState({ education: res.data.results });
 			this.setState(state => ({
