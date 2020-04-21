@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Card, CardImg } from 'reactstrap';
 import AboutTitleBanner from './aboutBanners/AboutTitleBanner.js';
 import IntroductionBanner from './aboutBanners/IntroductionBanner';
+import ContentBanner from './aboutBanners/ContentBanner';
 
 export class About extends Component {
 	constructor(props) {
@@ -23,6 +24,7 @@ export class About extends Component {
 			<div>
 				<AboutTitleBanner />
 				<IntroductionBanner />
+				<ContentBanner />
 			</div>
 		);
 	}

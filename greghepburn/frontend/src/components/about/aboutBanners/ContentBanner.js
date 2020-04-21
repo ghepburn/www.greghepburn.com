@@ -4,7 +4,7 @@ import StoryBanner from './aboutContent/StoryBanner';
 import TimelineBanner from './aboutContent/TimelineBanner';
 import EducationBanner from './aboutContent/EducationBanner';
 
-export class IntroductionBanner extends Component {
+export class ContentBanner extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -61,7 +61,6 @@ export class IntroductionBanner extends Component {
 
 				<section id="section-b" className="grid">
 					<div className="content-wrap">
-						<p>My mission is to become a professional in the programming industry. I want to be an example for others, who feel discouraged about entering into a career field which they have no formal education in.</p>
 						<ul>
 							<li>
 								<div className="btn card" onClick={this.toggleStoryClick}>
@@ -97,4 +96,4 @@ export class IntroductionBanner extends Component {
 	}
 };
 
-export default IntroductionBanner
+export default ContentBanner
