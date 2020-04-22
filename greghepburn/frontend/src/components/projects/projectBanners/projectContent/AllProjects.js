@@ -13,7 +13,7 @@ export class AllProjects extends Component {
 				<div className="content-wrap">
 					<div className="content-text">
 						{this.props.projects.map((project) => 
-							<div class="row">
+							<div class="row justify-content-center">
 								<Link to={`/projects/${project.id}`}>
 									<div className="card btn">
 										<h2><strong>{project.title}</strong></h2>

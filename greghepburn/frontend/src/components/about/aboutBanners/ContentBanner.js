@@ -85,6 +85,7 @@ export class ContentBanner extends Component {
 							</li>
 						</ul>
 					</div>
+					<br></br>
 				</section>
 
 				<div>

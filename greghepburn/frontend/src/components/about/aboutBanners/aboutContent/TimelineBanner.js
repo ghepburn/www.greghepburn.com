@@ -8,7 +8,7 @@ export class TimelineBanner extends Component {
 
 			<section id="section-a" className="grid">
 				<div className="content-wrap">
-					<h2 className="content-title">My Journey</h2>
+					<h2 className="content-title">My Study Timeline</h2>
 					<div className="content-text">
 					
 						<div class="timeline">
@@ -21,49 +21,49 @@ export class TimelineBanner extends Component {
 							<div class="timelineContainer right">
 								<div class="content">
 									<h2>Early 2019</h2>
-									<p><strong>Data Analysis:</strong> Pandas, MatPlotLib & Numpy Libraries.  Cleaned, organized, visuallized and manipulated data.</p>
+									<p><strong>Data Analysis:</strong> Completed data analysis projects using stock data and NHL player data.  Applied Python's Pandas and MatPlotLib libraries to grab, clean, and visualize data.</p>
 								</div>
 							</div>
 							<div class="timelineContainer left border-right">
 								<div class="content">
 									<h2>Early-Mid 2019</h2>
-									<p><strong>Machine Learning:</strong> Keras, SciKitLearn, TensorFlow, Numpy libraries.  Explored machine learning through "Make Money With Machine Learning Course".  Dove deep into mechanics of neural networks.</p>
+									<p><strong>Machine Learning:</strong> Enrolled into Siraj Ravels "Make Money With Machine Learning" 10-week online course. I Completed 10 assignments using Python to apply regression, classification, neural network, reinforcement learning, and generative adversarial network machine leanring models to datasets.</p>
 								</div>
 							</div>
 							<div class="timelineContainer right">
 								<div class="content">
 									<h2>Mid 2019</h2>
-									<p><strong>Website-Development:</strong> Django, Flask, JavaScript, Linux.  Built several websites exploring frameworks. Explored frontend development projects.</p>
+									<p><strong>Frontend & Backend Website Development:</strong> Completed projects using the Django and Flask frameworks.  Studied and applied JavaScript, CSS, HTML. Dug in to understand the details of each framework. Depolyed websites via Ubuntu Linode and Heroku servers.</p>
 								</div>
 							</div>
 							<div class="timelineContainer left border-right">
 								<div class="content">
 									<h2>Mid-Late 2019</h2>
-									<p><strong>Data Warehousing:</strong> Leaned into business intelligence and databases.  Entrolled into 5-course "Data Warehousing for Business Intelligence Course". Completed work using MicroStrategy and Tableau.  Recieved Tableau Developer Certification.</p>
+									<p><strong>Data Warehousing:</strong> Entrolled in the University of Colorado's "Data Warehousing for Business Intelligence" 5-part online course. Completed assignments in data warehouse design, data integration, relational database applicaiton, business intelligence concepts and tools, and database management. Used Microstrategy and Tableau Desktop to build dynamic data dashboards.</p>
 								</div>
 							</div>
 							<div class="timelineContainer right">
 								<div class="content">
 									<h2>Mid-Late 2019</h2>
-									<p><strong>IT / Foundational Knowledge:</strong> Google IT Professional Online 5-part Course. Built knowledge in networks, operating systems, system admin, hardware, and software.</p>
+									<p><strong>IT / Foundational Knowledge:</strong> Completed "Google IT Professional Support Certificate" 5-part online course. Past tests and completed assignments in areas of technical support fundementals, computer networking, operating system, system administration, and system security.</p>
 								</div>
 							</div>
 							<div class="timelineContainer left border-right">
 								<div class="content">
 									<h2>Late 2019 - Early 2020</h2>
-									<p><strong>OOP:</strong> Algorithms, Data Structures, Design Patterns, and GUI Projects.  Built Algorithm visualization GUI.  Learned Design patterns and then re-build same project.  Found OOP code a huge passion.</p>
+									<p><strong>Object Oriented Programming:</strong> I completed a GUI algorithm visualization project. I studied and applied OOP princples, design patterns, and organized project structure.</p>
 								</div>
 							</div>
 							<div class="timelineContainer right">
 								<div class="content">
 									<h2>Early-Mid 2020</h2>
-									<p><strong>API's:</strong> Wanted to learn everything API. Used Flask, PostGres, and SQLAlchemy to build professional API with JWT authentication.</p>
+									<p><strong>API's:</strong> I built multiple REST API's using the DJango and Flask frameworks.  I studied and applied the HTTP protocol, JSON, and SQLAlchemy.</p>
 								</div>
 							</div>
 							<div class="timelineContainer left border-right">
 								<div class="content">
 									<h2>Early-Mid 2020</h2>
-									<p><strong>Get Developer Job:</strong> Learned React, built personal website, deployed on Docker, redid LinkedIn, polished projects.</p>
+									<p><strong>Gain Employment:</strong> I learned React, and used it with Django to and build a full-stack personal website. The website was deployed onto an Apache Ubuntu server.</p>
 								</div>
 							</div>
 						</div>

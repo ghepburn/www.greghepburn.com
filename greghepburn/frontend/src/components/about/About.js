@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import { Card, CardImg } from 'reactstrap';
 import AboutTitleBanner from './aboutBanners/AboutTitleBanner.js';
-import IntroductionBanner from './aboutBanners/IntroductionBanner';
+import AboutIntroduction from './aboutBanners/AboutIntroduction';
 import ContentBanner from './aboutBanners/ContentBanner';
 
 export class About extends Component {
@@ -23,7 +23,7 @@ export class About extends Component {
 		return (
 			<div>
 				<AboutTitleBanner />
-				<IntroductionBanner />
+				<AboutIntroduction />
 				<ContentBanner />
 			</div>
 		);

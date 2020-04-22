@@ -15,7 +15,7 @@ export class HomeProjects extends Component {
 								<img src="https://www.greghepburn.com/media/images/backend.jpeg"></img>
 								<div className="card-content">
 									<h3 class="card-title">Backend Development</h3>
-									<p>I enjoy facillitating communication with API's, working with data and databases, and creating the logic whcih drives the frontend.</p>
+									<p>I enjoy facilitating communication with API's, working with data and databases, and creating the logic which drives the frontend.</p>
 								</div>
 							</div>
 						</li>						
@@ -24,7 +24,7 @@ export class HomeProjects extends Component {
 								<img src="https://www.greghepburn.com/media/images/software_team.jpg"></img>
 								<div className="card-content">
 									<h3 class="card-title">Software Development</h3>
-									<p>OOP is perhaps my greatest codeing passion. Software development facilitates the challenge and teamwork that I crave to be apart of.</p>
+									<p>OOP is perhaps my greatest coding passion. I enjoy the interesting and varied challenges that Software development facilitates.</p>
 								</div>
 							</div>
 						</li>

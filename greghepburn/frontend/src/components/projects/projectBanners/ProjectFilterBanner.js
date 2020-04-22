@@ -58,7 +58,7 @@ export class ProjectFilterBanner extends Component {
 			<div>
 
 				<section id="section-b" className="grid">
-					<div className="content-wrap">
+					<div className="content-wrap sortprojects">
 						<h3 className="content-title">Sort Projects</h3>
 						<ul>
 							<li>									
@@ -81,7 +81,7 @@ export class ProjectFilterBanner extends Component {
 				</section>
 
 				<section id="section-b" className="grid">
-					<div className="content-wrap">
+					<div className="content-wrap filterprojects">
 						<h3 className="content-title">Filter Projects</h3>
 						<ul>
 							<li>									
