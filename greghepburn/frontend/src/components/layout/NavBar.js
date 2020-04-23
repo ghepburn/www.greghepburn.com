@@ -41,6 +41,11 @@ export class NavBar extends Component {
 						</Link>
 					</li>
 					<li>
+						<Link to="/resume">
+							<a>Resume</a>
+						</Link>
+					</li>
+					<li>
 						<Link to="/about">
 							<a>About</a>
 						</Link>

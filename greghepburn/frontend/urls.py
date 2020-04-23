@@ -7,5 +7,6 @@ urlpatterns = [
 	path('about/myStory/', views.index),
 	path('about/myTimeline/', views.index),
 	path('about/myEducation/', views.index),
+	path('resume/', views.index),
 	re_path(r'^projects/', views.index)
 ]

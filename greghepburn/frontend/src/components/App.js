@@ -9,6 +9,7 @@ import Home from './home/Home';
 import About from './about/About';
 import Projects from './projects/Projects';
 import Project_Detail from './projects/projectBanners/projectContent/ProjectDetail';
+import Resume from './resume/Resume';
 
 class App extends Component {
 	constructor(props) {
@@ -33,6 +34,7 @@ class App extends Component {
 					<Route path="/" exact component= {() => <Home projects={this.state.projects} />} />
 					<Route path="/about" exact component={() => <About />} />
 					<Route path="/projects" exact component={() => <Projects projects={this.state.projects} />} />
+					<Route path="/resume" component={Resume} />
 					<Route path="/projects/:id" component={Project_Detail} />
 				</Switch>
 				<Footer />

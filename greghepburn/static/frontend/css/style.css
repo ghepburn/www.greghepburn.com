@@ -9,7 +9,6 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	overflow-x: hidden;	
-	appeatance: none;
 }
 img {
  	display: block;
@@ -23,6 +22,10 @@ h1, h2, h3 {
 p {
 	margin:0;
 	padding: 1em 0;
+}
+
+li {
+	list-style: none;
 }
 
 
@@ -200,7 +203,7 @@ footer {
 
 .heavy-message {
 	font-size: 24px;
-	ont-weight: bold;
+	font-weight: bold;
 }
 
 /*section-b*/
@@ -234,12 +237,14 @@ footer {
 	color: #fff;
 }
 
-#section-c .box .ul {
+#section-c .box ul {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: space-around;
+}
+
+#section-c li {
 	list-style: none;
 }
 
@@ -277,7 +282,11 @@ footer {
 	padding: 8px;
 }
 
+/*RESUME*/
 
+#resume {
+	padding: 20px;
+}
 
 
 /*NON-MOBILE*/

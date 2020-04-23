@@ -7,13 +7,19 @@ export class HomeContact extends Component {
 
 		return (
 			<section id="section-c" className="grid contact">
-				<div className="box">
+				<div className="box pb-4 mb-5 border-bottom ">
 					<h2 className="content-title">Contact Me Today</h2>
-					<ul>
-						<li>Greg Hepburn</li>
-						<li>ghepburn@hotmail.ca</li>
-						<li>Toronto, Ontario</li>
-					</ul>  
+					<p>
+						Greg Hepburn
+						<br></br>
+						ghepburn@hotmail.ca
+						<br></br>
+						Toronto, Ontario
+						<br></br>
+						<a href="https://www.linkedin.com/in/greg-hepburn-0289a5179/">LinkedIn</a>
+						<br></br>
+						<a href="https://github.com/ghepburn">GitHub</a>
+					</p>  
 				</div>
 			</section>
 		);
