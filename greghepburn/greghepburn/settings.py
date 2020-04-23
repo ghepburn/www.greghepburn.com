@@ -16,9 +16,6 @@ import json
 with open('/etc/config.json') as config_file:
 	config = json.load(config_file)
 
-# with open('/etc/config.json') as config_file:
-#     config = json.load(config_file)
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -28,11 +25,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config["SECRET_KEY"]
+# SECRET_KEY = "sdgb1dh43dh43dhg"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["172.105.24.31", "www.greghepburn.com", "greghepburn.com"]
+ALLOWED_HOSTS = ["172.105.24.31", "www.greghepburn.com", "greghepburn.com", "127.0.0.1"]
 
 
 # Application definition

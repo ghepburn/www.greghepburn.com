@@ -33,6 +33,7 @@ export class HomeProjects extends Component {
 								<img src="https://www.greghepburn.com/media/images/dataanalysis.jpeg"></img>
 								<div className="card-content">
 									<h3 class="card-title">Data Science</h3>
+									<br></br>
 									<p>Do I want to optimize my decisions in life? Of course! Here lies my deep love for working with data.</p>
 								</div>
 							</div>
