@@ -1,0 +1,80 @@
+import React, { Component, Fragment } from 'react';
+import ReactDOM from 'react-dom';
+import { Card, CardImg } from 'reactstrap';
+
+export class TimelineBanner extends Component {
+	render() {
+		return (
+
+			<section id="section-a" className="grid">
+				<div className="content-wrap">
+					<h2 className="content-title">My Study Timeline</h2>
+					<div className="content-text">
+					
+						<div class="timeline">
+							<div class="timelineContainer left border-right">
+								<div class="content">
+									<h2>Late 2018</h2>
+									<p><strong>Python & SQL Syntax</strong></p>
+								</div>
+							</div>
+							<div class="timelineContainer right">
+								<div class="content">
+									<h2>Early 2019</h2>
+									<p><strong>Data Analysis:</strong> Pandas, MatPlotLib & Numpy Libraries.  Cleaned, organized, visuallized and manipulated data.</p>
+								</div>
+							</div>
+							<div class="timelineContainer left border-right">
+								<div class="content">
+									<h2>Early-Mid 2019</h2>
+									<p><strong>Machine Learning:</strong> Keras, SciKitLearn, TensorFlow, Numpy libraries.  Explored machine learning through "Make Money With Machine Learning Course".  Dove deep into mechanics of neural networks.</p>
+								</div>
+							</div>
+							<div class="timelineContainer right">
+								<div class="content">
+									<h2>Mid 2019</h2>
+									<p><strong>Backend & Frontend Development:</strong> Built full-stack websites .  Studied and applied JavaScript, CSS, HTML, the Django & Flask Frameworks, and database integration.</p>
+								</div>
+							</div>
+							<div class="timelineContainer left border-right">
+								<div class="content">
+									<h2>Mid-Late 2019</h2>
+									<p><strong>Data Warehousing & Business Intelligence:</strong> Entrolled into the University of COlorado's "Data Warehousing For Business Intelligence" 5-part online course. I completed assignments focused on data warehouse design, data integration, relational database support, business intelligence concepts & tools, and database management. Gained experience using Microstrategy and Tableau Desktop Software.</p>
+								</div>
+							</div>
+							<div class="timelineContainer right">
+								<div class="content">
+									<h2>Mid-Late 2019</h2>
+									<p><strong>IT / Foundational Knowledge:</strong> Completed "Google IT Support Professional Certificate" 5-part online course. This course gave me knowledge in the fundementals of technical support, computer networking, operating systems, system administration, computer hardware, and information technology security.</p>
+								</div>
+							</div>
+							<div class="timelineContainer left border-right">
+								<div class="content">
+									<h2>Late 2019 - Early 2020</h2>
+									<p><strong>OOP:</strong> Completed a GUI algorithm visualization project. I studied and applied OOP principles, design patterns, project layout structure.</p>
+								</div>
+							</div>
+							<div class="timelineContainer right">
+								<div class="content">
+									<h2>Early-Mid 2020</h2>
+									<p><strong>API's:</strong> Used Flask and Django to build multiple API's.  I studied and applied HTTP protocols, object relational mappers like SQLAlchemy, and JSON.</p>
+								</div>
+							</div>
+							<div class="timelineContainer left border-right">
+								<div class="content">
+									<h2>Early-Mid 2020</h2>
+									<p><strong>Get Developer Job:</strong> Learned React, built personal website, deployed on Docker, redid LinkedIn, polished projects.</p>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+
+		);
+	}
+};
+
+export default TimelineBanner

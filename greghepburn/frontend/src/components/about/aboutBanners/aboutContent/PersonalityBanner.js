@@ -11,30 +11,26 @@ export class PersonalityBanner extends Component {
 					<ul>
 						<li>
 							<div className="card">
-								<img src="https://www.greghepburn.com/media/images/agent_selfie.jpeg"></img>
+								<img src="https://www.greghepburn.com/media/images/me.jpg"></img>
 							</div>
 						</li>
 						<li>
 							<div className="card">
-								<img src="https://www.greghepburn.com/media/images/gregval.jpeg"></img>
+								<img src="https://www.greghepburn.com/media/images/gregval.jpg"></img>
 							</div>
 						</li>
 						<li>
 							<div className="card">
-								<img src="https://www.greghepburn.com/media/images/selfie.jpeg"></img>
+								<img src="https://www.greghepburn.com/media/images/selfie_2.jpg"></img>
 							</div>
 						</li>
 					</ul>
 				</div>
-				<br></br>
-				<div className="content-wrap">
-					<img src="https://www.greghepburn.com/media/images/PersonalityTest_page1.jpeg"></img>
-				</div>
-				<div className="content-wrap">
-					<img src="https://www.greghepburn.com/media/images/PersonalityTest_page2.jpeg"></img>
-				</div>
-				<div className="content-wrap">
-					<img src="https://www.greghepburn.com/media/images/PersonalityTest_page3.jpeg"></img>
+				<div id="personality_test" className="content-wrap">
+					<h2 className="border-bottom">Myers Briggs Personality Test</h2>
+					<img src="https://www.greghepburn.com/media/images/MyersBriggs1.JPG"></img>
+					<img src="https://www.greghepburn.com/media/images/MyersBriggs2.JPG"></img>
+					<img src="https://www.greghepburn.com/media/images/MyersBriggs3.JPG"></img>
 				</div>
 			</section>
 
