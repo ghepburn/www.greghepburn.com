@@ -62,7 +62,7 @@ export class TimelineBanner extends Component {
 							</div>
 							<div class="timelineContainer left border-right">
 								<div class="content">
-									<h2>Early-Mid 2020</h2>
+									<h2>Mid 2020</h2>
 									<p><strong>Gain Employment:</strong> I learned React, and used it with Django to and build a full-stack personal website. The website was deployed onto an Apache Ubuntu server.</p>
 								</div>
 							</div>

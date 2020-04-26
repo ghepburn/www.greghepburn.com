@@ -11,7 +11,8 @@ export class HomeAbout extends Component {
 					<div className="content-text">
 						<p className="heavy-message">Hi!  My name is Greg Hepburn and I am a self-taught Python Developer.</p>
 						<p className="heavy-message">
-							I fell in love with coding because it continuously challenges me. The feeling of tackling a difficult problem and finding success is addictive.  
+							I fell in love with coding because it challenges my thinking, patience, and resilience.
+							It facillitates self improvment, which I can measure and feel from one project to the next.
 						</p>
 					</div>
 				</div>

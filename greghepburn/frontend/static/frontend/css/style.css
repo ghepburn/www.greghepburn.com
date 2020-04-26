@@ -9,7 +9,6 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	overflow-x: hidden;	
-	appeatance: none;
 }
 img {
  	display: block;
@@ -56,6 +55,7 @@ footer {
 }
 
 
+
 .logo a {
 	color: #fff;
 	text-transform: uppercase;
@@ -74,7 +74,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 40%;
+		width: 50%;
 		transition: transform 0.5s ease-in;
 	}
 
@@ -268,16 +268,21 @@ footer {
 
 /*ABOUT*/
 
-#personality_test .h2 {
-	margin: 6px;
-	padding: 3px;
+
+#personality-test-images img {
+	padding: 20px;
+	margin: 10px;
+	align-items: center;
 }
 
-#personality_test img {
-	padding: 8px;
+.about-card {
+	width: 100%;
+	height: 90%;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
-
-
 
 
 /*NON-MOBILE*/
@@ -303,7 +308,7 @@ footer {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		width:30%;
+		width:45%;
 		transform: translateX(0%);
 		margin: 5px;
 	}
@@ -337,6 +342,7 @@ footer {
 	#section-b ul {
 		display: flex;
 		justify-content: space-around;
+
 	}
 
 	#section-b li {

@@ -81,28 +81,28 @@ export class ContentBanner extends Component {
 					<div className="content-wrap">
 						<ul>
 							<li>
-								<div className="btn card" onClick={this.toggleStoryClick}>
+								<div className="btn card about-card" onClick={this.toggleStoryClick}>
 									<div className="card-content">
-										<h4 class="card-title m-1">My Story</h4>
+										<h4 class="card-title">My Story</h4>
 									</div>
 								</div>
 							</li>
 							<li>
-								<div className="btn card" onClick={this.toggleTimelineClick}>
+								<div className="btn card about-card" onClick={this.toggleTimelineClick}>
 									<div className="card-content">
 										<h4 class="card-title">My Timeline</h4>
 									</div>
 								</div>
 							</li>
 							<li>
-								<div className="btn card" onClick={this.toggleEducationClick}>
+								<div className="btn card about-card" onClick={this.toggleEducationClick}>
 									<div className="card-content">
 										<h4 class="card-title">My Education</h4>
 									</div>
 								</div>
 							</li>
 							<li>
-								<div className="btn card" onClick={this.togglePersonalityClick}>
+								<div className="btn card about-card" onClick={this.togglePersonalityClick}>
 									<div className="card-content">
 										<h4 class="card-title">My Personality</h4>
 									</div>

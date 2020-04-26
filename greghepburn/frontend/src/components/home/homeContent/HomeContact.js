@@ -7,7 +7,7 @@ export class HomeContact extends Component {
 
 		return (
 			<section id="section-c" className="grid contact">
-				<div className="box pb-4 mb-5 border-bottom ">
+				<div className="box pb-4 mb-5">
 					<h2 className="content-title">Contact Me Today</h2>
 					<p>
 						Greg Hepburn
