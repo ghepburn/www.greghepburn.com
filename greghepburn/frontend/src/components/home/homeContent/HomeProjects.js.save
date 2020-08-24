@@ -1,0 +1,48 @@
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import axios from 'axios';
+
+export class HomeProjects extends Component {
+
+	render() {
+
+		return (
+			<section id="section-b" className="grid">
+				<div className="content-wrap">
+					<ul>
+						<li>
+							<div className="card">
+								<img src="https://www.greghepburn.com/media/images/backend.jpeg"></img>
+								<div className="card-content">
+									<h3 class="card-title">Backend Development</h3>
+									<p>I enjoy using code to work with data and structure and build business logic.  Python, Java, and SQL are my "go to" tools for this job.</p>
+								</div>
+							</div>
+						</li>						
+						<li>
+							<div className="card">
+								<img src="https://www.greghepburn.com/media/images/software_team.jpg"></img>
+								<div className="card-content">
+									<h3 class="card-title">Frontend Development</h3></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div className="card">
+								<img src="https://www.greghepburn.com/media/images/dataanalysis.jpeg"></img>
+								<div className="card-content">
+									<h3 class="card-title">Data Science</h3>
+									<br></br>
+									<p>I enjoy optimizeing the decisions in my life. The best way to do this is by using available data. I apply Python's data science and machine learning libraries to create actionable insights from data.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+		);
+	}
+};
+
+export default HomeProjects

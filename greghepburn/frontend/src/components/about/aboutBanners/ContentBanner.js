@@ -88,13 +88,6 @@ export class ContentBanner extends Component {
 								</div>
 							</li>
 							<li>
-								<div className="btn card about-card" onClick={this.toggleTimelineClick}>
-									<div className="card-content">
-										<h4 class="card-title">My Timeline</h4>
-									</div>
-								</div>
-							</li>
-							<li>
 								<div className="btn card about-card" onClick={this.toggleEducationClick}>
 									<div className="card-content">
 										<h4 class="card-title">My Education</h4>

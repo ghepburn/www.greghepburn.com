@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
@@ -15,7 +16,7 @@ export class HomeProjects extends Component {
 								<img src="https://www.greghepburn.com/media/images/backend.jpeg"></img>
 								<div className="card-content">
 									<h3 class="card-title">Backend Development</h3>
-									<p>I enjoy building the logic which drives the functionality of a website.  I work with data and databases, using HTTP protocols to build RESTful API's, and apply OOP to structure the code.</p>
+									<p>Using Python, Java and SQL as my primary tools, I enjoy working with data and building business logic for business applications.</p>
 								</div>
 							</div>
 						</li>						
@@ -23,8 +24,8 @@ export class HomeProjects extends Component {
 							<div className="card">
 								<img src="https://www.greghepburn.com/media/images/software_team.jpg"></img>
 								<div className="card-content">
-									<h3 class="card-title">Software Development</h3>
-									<p>I enjoy applying my knowledge of Python and OOP to building projects. I work with GUI's, web-applications, and more. I understand how I learn and I use that to tackle projects out of my comfort zone.</p>
+									<h3 class="card-title">Frontend Development</h3>
+									<p>Using JavaScript, ReactJs, HTML and CSS I build and design the structure and view of web applications.</p>
 								</div>
 							</div>
 						</li>
@@ -34,7 +35,7 @@ export class HomeProjects extends Component {
 								<div className="card-content">
 									<h3 class="card-title">Data Science</h3>
 									<br></br>
-									<p>I enjoy optimizeing the decisions in my life. The best way to do this is by using available data. I apply Python's data science and machine learning libraries to create actionable insights from data.</p>
+									<p>Using Python's wide range of data science libraries I love working with raw data to create usful information.</p>
 								</div>
 							</div>
 						</li>

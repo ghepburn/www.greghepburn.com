@@ -16,10 +16,8 @@ export class StoryBanner extends Component {
 						<p>I wanted to find a career where I could be challenged and could continue learning.</p> 
 						<p>This desire led me to begin learning the Python programming language in late 2018.</p>
 						<p>I went to the public library to study after work, and I later reduced my work hours down to part time in order to free up more time to study.</p>
-						<p>In August 2019 I chose to leave my job in order to purue studying Python programming full time.</p>
-						<p>Over my time studying, I have applied Python to learning data analysis, machine learning, website development, and GUI development.</p>
-						<p>I also have taken courses in supporting subjects such as information technology, data warehousing, and design patterns.</p>						
-<p>My goal is to gain employment as a software developer.</p>	
+						<p>In August 2019 I chose to leave my job in order to purue studying software development full time.</p>
+						<p>As of editing this website on August 02 2020, this is still where I reside today! Ive built numerous projects using multiple programming languages and am now have a primary focus of gaining employment as a full-stack software developer!</p>
 
 					</div>
 				</div>
