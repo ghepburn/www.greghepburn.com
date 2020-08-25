@@ -40,11 +40,7 @@ export class NavBar extends Component {
 							<a>Projects</a>
 						</Link>
 					</li>
-					<li>
-						<Link to="/resume">
-							<a>Resume</a>
-						</Link>
-					</li>
+
 					<li>
 						<Link to="/about">
 							<a>About</a>

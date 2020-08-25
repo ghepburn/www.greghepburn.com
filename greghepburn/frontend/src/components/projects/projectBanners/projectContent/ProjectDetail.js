@@ -25,19 +25,25 @@ export class Project_Detail extends Component {
 			<section id="section-a" className="grid">
 				<div className="content-wrap">
 					<img src={this.state.project.picture}></img>
-					<h2 className="content-title">{this.state.project.title}</h2>
-					<div className="content-text">
-						<p className="">{this.state.project.category}</p>
-						<p><strong>Created:</strong> {this.state.project.date_created}</p>
-						<p><strong>Skills Used:</strong> {this.state.project.tools_used}</p>
-						<a><strong>See Full Code:</strong> </a><a href={this.state.project.github_link}>{this.state.project.github_link}</a>
-						<div className="border-top m-4 p-2">
-							<p><strong>Summary</strong> <br></br>{this.state.project.summary}</p>
-						</div>
-						<div className="border-top m-4 p-2">
-							<p><strong>Details</strong> <br></br>{this.state.project.description}</p>
+
+					<div className="bg-light p-4 mt-4">
+						<h2 className="content-title">{this.state.project.title}</h2>
+						<div className="content-text text-left">
+							<p className="">
+								<strong>Created:</strong> {this.state.project.date_created} <br />
+								<strong>Category: </strong>{this.state.project.category} <br />
+								<strong>Skills Used:</strong> {this.state.project.tools_used} <br />
+							</p>
+							<a><strong>See Full Code:</strong> </a><a href={this.state.project.github_link}>{this.state.project.github_link}</a>
+							<div className="border-top m-4 p-2">
+								<p><strong>Summary</strong> <br></br>{this.state.project.summary}</p>
+							</div>
+							<div className="border-top m-4 p-2">
+								<p><strong>Details</strong> <br></br>{this.state.project.description}</p>
+							</div>
 						</div>
 					</div>
+
 				</div>
 			</section>
 		);

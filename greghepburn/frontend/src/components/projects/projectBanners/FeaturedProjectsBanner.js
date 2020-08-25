@@ -20,7 +20,6 @@ export class FeaturedProjectsBanner extends Component {
 										<div className="card-content">
 											<h4 class="card-title">{project.title}</h4>
 											<p>{project.category}</p>
-											<p>{project.summary}</p>
 										</div>
 									</div>
 								</Link>

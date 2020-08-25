@@ -10,7 +10,7 @@ export class AboutIntroduction extends Component {
 				<div className="content-wrap">
 					<div className="content-text">
 						<p className="heavy-message">
-							My mission is to become a professional software developer.  I want to be challenged and pushed to become the best I can be.
+							I am a consistent and reliable junior developer who can listen, communicate, adapt, and take initiative to tackle challenges.
 						</p>
 					</div>
 				</div>
