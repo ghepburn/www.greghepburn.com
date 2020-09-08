@@ -1,4 +1,4 @@
-# Personal-Website
+# www.greghepburn.com
 Personal promotion website built with Django &amp; React
 
 Django backend uses REST Frameowork to build read only REST API.
