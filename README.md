@@ -1,6 +1,6 @@
 # www.greghepburn.com
 
-www.greghepburn.com is a full-stack web application professionally representing myself and my completed projects.
+www.greghepburn.com is a full-stack web application professionally representing myself and my completed projects.  It is deployed live on a linode server using Apache2 server and can be accessed via https://www.greghepburn.com
 
 # Frontend
 The frontend is built using ReactJs, HTML5, and CSS. Instead of calling “react-create-project” using npm, webpack and babel are configured manually.  “npm collect” is called to compile and transport ReactJs code to backend static file.   
