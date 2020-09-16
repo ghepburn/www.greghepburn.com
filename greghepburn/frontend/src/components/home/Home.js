@@ -15,6 +15,7 @@ export class Home extends Component {
 				<TitleBanner />
 				<HomeAbout />
 				<HomeProjects />
+				<hr className="hline" />
 				<HomeContact />
 			</body	>
 		);

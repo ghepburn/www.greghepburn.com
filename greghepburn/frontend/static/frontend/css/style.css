@@ -247,6 +247,29 @@ footer {
 	background: #2690d4;
 }
 
+/* CONTACT */
+.contact-section {
+	border-radius: 15px;
+	border-width: 5px 5px 5px 5px;
+	border: solid;
+	border-color: #5D4954;
+	background-color: #fff;
+	color: black;
+	margin: auto;
+	margin-top: 5%;
+	max-width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: none;
+}
+
+hr {
+	color: #5D4954;
+	background-color: #5D4954;
+	width: 80%;
+	margin: auto;
+	border-width: thick;
+}
 
 /*PROJECTS*/
 
@@ -267,6 +290,23 @@ footer {
 
 .content-text {
 	align-content: left;
+}
+
+.highlighted-project-display {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: auto;
+}
+
+.hightlighted-project-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	white-space: wrap;
+	max-height: 50%;
 }
 
 
