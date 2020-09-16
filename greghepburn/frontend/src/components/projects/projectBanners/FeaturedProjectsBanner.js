@@ -16,10 +16,10 @@ export class FeaturedProjectsBanner extends Component {
 						{this.props.projects.filter(project=>project.featured).map((project) =>
 							<li>
 								<Link to={`/projects/${project.id}`}>
-									<div className="btn card">
+									<div className="btn card highlighted-project-card">
 										<div className="card-content">
 											<h4 class="card-title">{project.title}</h4>
-											<p>{project.category}</p>
+											<p>{project.summary}</p>
 										</div>
 									</div>
 								</Link>

@@ -8,11 +8,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 export class Projects extends Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
+
+		const bestProject = this.props.projects.filter(project => project.title.toLowerCase() == "girlfriend getaways full-stack website")[0];
+
 		return (
 			<div>
 				<ProjectTitleBanner />

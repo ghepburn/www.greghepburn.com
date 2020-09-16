@@ -7,9 +7,9 @@ export class HomeContact extends Component {
 
 		return (
 			<section id="section-c" className="grid contact">
-				<div className="box pb-4 mb-5">
-					<h2 className="content-title">Contact Me Today</h2>
-					<p>
+				<div className="box pb-4 mb-5 contact-section">
+					<h2 style={{color: "black"}} className="content-title">Contact Me Today</h2>
+					<p style={{color: "black"}}>
 						Greg Hepburn
 						<br></br>
 						ghepburn@hotmail.ca
